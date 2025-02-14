@@ -11,16 +11,6 @@ Hey there! Welcome to the README for my personal AWS S3-hosted website. This pro
 - **Serverless Backend with Lambda & API Gateway:** A backend function powered by **AWS Lambda** and **API Gateway** updates the visitor count.
 - **CI/CD Pipeline with GitHub Actions:** Any changes I make to the site get automatically deployed using **GitHub Actions**.
 
-## Technologies I Used
-- **AWS S3** – To host the static site
-- **AWS CloudFront** – To distribute content efficiently
-- **AWS Route 53** – For custom domain management
-- **AWS Certificate Manager (ACM)** – To enable HTTPS
-- **AWS DynamoDB** – For tracking visitor counts
-- **AWS API Gateway** – To manage API requests
-- **AWS Lambda (Python)** – To handle backend processing
-- **GitHub Actions** – To automate deployments
-
 ## How to Deploy Updates
 1. **Upload New Files to S3:**
    ```sh
